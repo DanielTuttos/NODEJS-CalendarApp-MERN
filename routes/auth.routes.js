@@ -4,7 +4,7 @@
 */
 
 const express = require('express');
-const { crearUsuario, loginUsuario, revalidarToken } = require('../controllers/auth');
+const { crearUsuario, loginUsuario, revalidarToken } = require('../controllers/auth.controller');
 const { check } = require('express-validator');
 const { validarCampos } = require('../middlewares/validar-campos');
 const { validarJWT } = require('../middlewares/validar-jwt');
